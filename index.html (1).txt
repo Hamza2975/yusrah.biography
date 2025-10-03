@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biography of Yusrah Shuaibu Maiwada</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f9;
+color: #333;
+line-height: 1.6;
+}
+header {
+background: #4CAF50;
+color: white;
+padding: 1rem 0;
+text-align: center;
+}
+header h1 {
+margin: 0;
+}
+nav {
+background: #333;
+color: white;
+display: flex;
+justify-content: center;
+padding: 0.5rem 0;
+}
+nav a {
+color: white;
+margin: 0 1rem;
+text-decoration: none;
+}
+nav a:hover {
+text-decoration: underline;
+}
+section {
+padding: 2rem;
+max-width: 800px;
+margin: auto;
+}
+footer {
+background: #333;
+color: white;
+text-align: center;
+padding: 1rem 0;
+margin-top: 2rem;
+}
+.quote {
+font-style: italic;
+text-align: center;
+margin: 2rem 0;
+color: #555;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Biography of Yusrah Shuaibu Maiwada</h1>
+</header>
+
+<nav>
+<a href="#early-life">Early Life</a>
+<a href="#education">Education</a>
+<a href="#achievements">Achievements</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="early-life">
+<h2>Early Life</h2>
+<p>Yusrah Shuaibu Maiwada was born into a humble and loving family in Katsina State, Nigeria. She grew up with a passion for learning, creativity, and helping others. Her early years were marked by curiosity, resilience, and a determination to succeed despite challenges.</p>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<p>Yusrah pursued her primary and secondary education in Katsina, where she excelled academically and socially. She is known for her dedication to studies, leadership qualities, and active participation in community development activities.</p>
+</section>
+
+<section id="achievements">
+<h2>Achievements</h2>
+<p>Throughout her journey, Yusrah Shuaibu Maiwada has achieved remarkable milestones in academics and personal growth. Her achievements reflect her hard work, determination, and commitment to making a positive impact in her society.</p>
+</section>
+
+<div class="quote" id="quote">"Education is the key to success."</div>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>You can reach out to Yusrah Shuaibu Maiwada for collaboration, mentorship, or inquiries through her official email:
+<a href="mailto:yusrah@example.com">yusrah@example.com</a>.
+</p>
+</section>
+
+<footer>
+<p>&copy; 2025 Biography of Yusrah Shuaibu Maiwada | All Rights Reserved</p>
+</footer>
+
+<script>
+const quotes = [
+"Education is the key to success.",
+"Knowledge is power.",
+"Learning never exhausts the mind.",
+"The future belongs to those who prepare for it today."
+];
+
+let currentQuoteIndex = 0;
+const quoteElement = document.getElementById("quote");
+
+function showNextQuote() {
+currentQuoteIndex = (currentQuoteIndex + 1) % quotes.length;
+quoteElement.textContent = quotes[currentQuoteIndex];
+}
+
+setInterval(showNextQuote, 4000);
+</script>
+</body>
+</html>
